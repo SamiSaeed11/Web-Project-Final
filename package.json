@@ -1,0 +1,19 @@
+{
+  "name": "ats-recruitment-system",
+  "version": "1.0.0",
+  "description": "Multi-Branch Recruitment & Applicant Tracking System - BSCS Web Development Project",
+  "author": "Hussain Nawaz (23f-0845)",
+  "license": "ISC",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && node seed.js",
+    "start-backend": "cd backend && npm start",
+    "start-frontend": "cd frontend && npm run dev"
+  },
+  "keywords": [
+    "recruitment",
+    "ats",
+    "mern",
+    "web-development"
+  ]
+}
